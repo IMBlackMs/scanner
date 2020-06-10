@@ -5,6 +5,7 @@ web information scanner
 - 2.子域名查询&导出
 - 3.IP查询（CDN查询/IP查询/IP localtion查询）
 - 4.端口及服务查询
+- 5.行为记录日志
 # 环境
 Django&python3
 # python库
@@ -22,3 +23,4 @@ Django&python3
 - from threading import Thread
 - import queue
 - import nmap
+- from datetime import datetime,timedelta
